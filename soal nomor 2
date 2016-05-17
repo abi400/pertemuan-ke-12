@@ -1,0 +1,27 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+   int angka [3][3];
+   for (int baris=0;baris<3; baris++){
+      for (int kolom=0; kolom<=3; kolom++){
+          cout<<"angka["<<baris<<"]["<<kolom<<"] =";
+          cin>>angka[baris][kolom];
+      }
+      cout<<endl;
+   }
+   cout<<endl;
+   cout<<"menampilkan nilai array"<<endl;
+   for (int baris=0; baris<3; baris++){
+    for (int kolom=0;kolom<3;kolom++){
+        cout<<"["<<baris<<"]"<<"["<<kolom<<"]"<<"="<<angka[baris][boros];
+    }
+    cout<<endl;
+   }
+
+   return 0;
+}
+
+
